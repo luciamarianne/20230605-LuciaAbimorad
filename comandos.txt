@@ -1,0 +1,50 @@
+   63  mkdir mercadoAbierto
+   64  cd mercadoAbierto/
+   65  git init
+   66  git congig user.name "luciamarianne"
+   67  git config user.name "luciamarianne"
+   68  git config user.email "luciaabimorad@gmail.com"
+   69  touch productos.js
+   70  git status
+   71  git add productos.js 
+   72  git status
+   73  git commit -m "mi primer commit"
+   74  git status
+   75  exit
+   76  git config --global name luciamarianne
+   77  git config --global user.name "luciamarianne"
+   78  git config --global user.email "luciaabimorad@gmail.com"
+   79  exit
+   80  git config
+   81  git
+   82  git config -l
+   83  exit
+   84  git clone https://github.com/luciamarianne/prueba.git
+   85  ls
+   86  cd prueba
+   87  touch app.js
+   88  git status
+   89  git add app.js
+   90  git status
+   91  git commit -m "mi primer commit"
+   92  git status
+   93  git push origin main
+   94  git status
+   95  git init
+   96  git remote add origin https://github.com/luciamarianne/20230605-LuciaAbimorad.git
+   97  touch comandos.txt main.js index.html
+   98  add .
+   99  git add .
+  100  git commit -m "commit 01 de LuciaAbimorad"
+  101  git push origin main
+  102  git branch feature
+  103  git checkout feature 
+  104  mkdir Hardware Software SeguridadInformatica
+  105  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  106  git add .
+  107  git commit -m "commit 02 de LuciaAbimorad"
+  108  git push origin feature
+  109  git checkout main
+  110  mv main.js resumenHardware.txt
+  111  mv index.html resumenSoftware.txt
+  112  history 50 > comandos.txt 
